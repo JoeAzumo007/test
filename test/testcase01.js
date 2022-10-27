@@ -8,4 +8,15 @@ describe('Mocha validations',()=>{
     it('Validate through should',()=>{
         name.should.equal('Joversky')
     })
+
+    it('Validate through expect',()=>{
+        expect(name).to.equal('Joversky')
+    })
+
+    it('Validate through assert',()=>{
+       assert.equal(name,'Joversky')
+    })
+
+
+
 })
